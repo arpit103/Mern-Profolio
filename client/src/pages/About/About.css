@@ -1,0 +1,64 @@
+.about {
+    margin: 30px 0px;
+    padding: 20px;
+    margin-left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 2.6px;
+}
+
+.about-img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content h1 {
+    color: rgb(61, 18, 236);
+    font-family: cursive;
+    border-bottom: 2px solid gray;
+    text-align: left;
+}
+
+.about-content p {
+    text-align: justify;
+    padding: 20px;
+}
+
+
+/* DARK MODE */
+
+#dark .about {
+    box-shadow: none;
+    background-color: rgba(200, 216, 213, 0.734);
+}
+
+#dark .about-content h1 {
+    color: rgb(3, 80, 54);
+    border-bottom: 2px solid rgb(10, 8, 8);
+}
+
+#dard .about-content,
+p {
+    color: black;
+}
+
+
+/* .........................*/
+
+@media (max-width:600px) {
+    .about {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .about-content h1 {
+        margin-top: 10px;
+    }
+}

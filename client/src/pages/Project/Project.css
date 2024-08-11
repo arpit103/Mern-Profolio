@@ -1,0 +1,110 @@
+/* for class use . */
+
+.project {
+    padding-left: 130px;
+    margin-top: 60px;
+}
+
+.project hr {
+    color: rgb(12, 13, 13);
+    width: 400px;
+    margin: 10px auto;
+}
+
+.project h2 {
+    font-weight: bold;
+    color: rgb(3, 80, 54)
+}
+
+
+/* for ID we use # */
+
+#ads {
+    margin: 30px 10px 30px 10px;
+}
+
+#ads .card-notify-badge {
+    position: absolute;
+    left: -10px;
+    top: -30px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.project .card img {
+    height: 150px;
+    width: 100%;
+}
+
+.card-detail-badge {
+    background-color: rgb(231, 128, 11);
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: rgb(15, 3, 3);
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.card-image-overly {
+    font-size: 10px;
+}
+
+.card-image-overly span {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.project .card:hover {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px 0px rgb(28, 102, 102);
+    transition: all 1s ease;
+}
+
+.ad-btn {
+    text-transform: uppercase;
+    width: 140px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    background-color: rgb(28, 102, 102);
+    color: white;
+    border-radius: 80px;
+    font-size: 19px;
+    line-height: 35px;
+    text-decoration: none;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.ad-btn:hover {
+    background-color: white;
+    color: rgb(58, 47, 159);
+    background: transparent;
+    border: 2px solid #138781;
+    transition: all 0.5s ease;
+    box-shadow: 12px 15px 20px 0px rgb(28, 102, 102);
+}
+
+
+/*-----Mobile View  */
+
+@media (max-width:600px) {
+    .project {
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+    }
+    .project hr {
+        width: 280px;
+    }
+    .project .card {
+        margin-top: 40px;
+    }
+}

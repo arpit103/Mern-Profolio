@@ -1,0 +1,45 @@
+.work {
+    background-color: rgba(101, 142, 142, 0.356);
+    margin-left: 100px;
+}
+
+.work-exp {
+    padding: 60px 0px;
+}
+
+.work-exp h2 {
+    font-weight: bold;
+    color: rgb(3, 80, 54)
+}
+
+.work-exp hr {
+    color: rgb(13, 13, 13);
+    width: 400px;
+    margin: 10px auto;
+}
+
+.work-exp .vertical-timeline-element-title {
+    color: rgb(38, 238, 171)
+}
+
+#dark .work-exp h2 {
+    color: rgb(3, 80, 54);
+}
+
+#dark .work-exp {
+    background-color: rgba(200, 216, 213, 0.734);
+}
+
+
+/*--------mobile view---- */
+
+@media(max-width:600px) {
+    .work {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .work hr {
+        width: 280px;
+    }
+}

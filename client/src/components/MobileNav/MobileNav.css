@@ -1,0 +1,48 @@
+    .mobile-nav {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .mobile-nav-header {
+        height: 50px;
+        width: 100%;
+        background-color: #141210f0;
+        padding: 8px;
+    }
+    
+    .mobile-nav-header .mobile-nav-icon {
+        color: rgb(247, 252, 252);
+        cursor: pointer;
+    }
+    /* .mobile-nav-icon {
+        color: rgba(238, 238, 235, 0.885);
+        cursor: pointer;
+    } */
+    
+    .mobile-nav-title {
+        margin-left: 20px;
+        color: orange;
+        font-weight: bold;
+        text-transform: capitalize;
+        vertical-align: middle;
+        font-size: 20px;
+        /* background-color: rgb(6, 17, 17); */
+    }
+    
+    .mobile-nav-menu .nav-items {
+        height: auto;
+        width: 200px;
+        background-color: rgb(6, 17, 17);
+        padding: 10px;
+        padding-bottom: 20px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    @media(min-width:600px) {
+        .mobile-nav {
+            display: none;
+        }
+    }

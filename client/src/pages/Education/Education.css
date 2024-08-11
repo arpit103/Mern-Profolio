@@ -1,0 +1,52 @@
+.education {
+    padding-left: 10px;
+    margin-top: 60px;
+    background-color: rgb(128, 128, 128, 0.101);
+    padding: 60px;
+    margin-right: 1px;
+    margin-left: 110px;
+}
+
+.education hr {
+    color: rgb(13, 13, 13);
+    width: 400px;
+    margin: 10px auto;
+}
+
+.education h2 {
+    font-weight: bold;
+    color: rgb(3, 80, 54);
+}
+
+.education .vertical-timeline-element-title {
+    color: rgb(8, 38, 63);
+}
+
+.education .vertical-timeline-element-subtitle {
+    color: rgb(7, 171, 171)
+}
+
+
+/*  ======  dark mode =======  */
+
+#dark .education {
+    background-color: rgba(200, 216, 213, 0.734);
+}
+
+
+/*======= Mobile View */
+
+@media (max-width:600px) {
+    .education {
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .education h2 {
+        padding-top: 20px;
+    }
+    .education hr {
+        width: 280px;
+        margin-bottom: 10px;
+    }
+}

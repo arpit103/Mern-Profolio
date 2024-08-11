@@ -1,0 +1,27 @@
+/*css reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* DRAK MODE */
+
+#dark {
+    background-color: rgba(123, 164, 159, 0.93);
+    color: rgb(7, 50, 31);
+}
+
+
+/* ---------Mobile view----------*/
+
+@media (max-width:600px) {
+    .footer {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
